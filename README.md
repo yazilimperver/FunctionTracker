@@ -1,7 +1,7 @@
 # FunctionTracker
 A simple mock library for modern C++ applications.
 
-This header only library help you to test "class under test" calls external interface APIs correctly with provided parameters.
+This header only library help you to test if "class under test" calls external interface APIs correctly with provided parameters.
 It is developed for educational purposes but also served well for simple unit test mock requirements.
 
 For more details you can check out my blog post about this library:
