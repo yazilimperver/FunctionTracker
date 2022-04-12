@@ -7,6 +7,8 @@ It is developed for educational purposes but also served well for simple unit te
 For more details you can check out my blog post about this library:
 * [Function Tracker](https://www.yazilimperver.com/?p=2512&preview=true) - Haftalık C++ - 48 - "Function Tracker": Basit bir "Mock" kütüphanesi
 
+[Bu sayfayı Türkçe okuyun](https://github.com/yazilimperver/FunctionTracker/blob/main/README.md)
+
 ## Getting Started
 
 ### Prerequisites
