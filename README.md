@@ -1,7 +1,6 @@
 # FunctionTracker
 Modern C++ uygulamalari için basit bir "Mock" kütüphanesi.
 
-[Read this page in English](https://github.com/yazilimperver/FunctionTracker/blob/main/README-En.md)
 
 Bu tek bir başlık dosyasından oluşan kütüphane ile, test edilecek olan sınıfınızın dış servislere ilişkin API'leri çağırıp/çağırmadığı ve çağırıyor ise doğru parametreler ile çağrıldığını kontrol edebilirsiniz.
 
@@ -9,6 +8,8 @@ Bu tek bir başlık dosyasından oluşan kütüphane ile, test edilecek olan sı
 
 Bu kütüphane ile ilgili daha detaylı bilgi için yazmış olduğum aşağıdaki yazıya göz atabilirsiniz:
 * [Function Tracker](https://www.yazilimperver.com/?p=2512&preview=true) - Haftalık C++ - 48 - "Function Tracker": Basit bir "Mock" kütüphanesi
+
+*[Read this page in English](https://github.com/yazilimperver/FunctionTracker/blob/main/README-En.md)*
 
 ## Başlarken
 
