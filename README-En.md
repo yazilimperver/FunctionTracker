@@ -5,7 +5,7 @@ This header only library help you to test if "class under test" calls external i
 It is developed for educational purposes but also served well for simple unit test mock requirements.
 
 For more details you can check out my blog post about this library:
-* [Function Tracker](https://www.yazilimperver.com/?p=2512&preview=true) - Haftalık C++ - 48 - "Function Tracker": Basit bir "Mock" kütüphanesi
+* [Function Tracker](https://www.yazilimperver.com/index.php/2022/04/15/haftalik-c-48-function-tracker-basit-bir-mock-kutuphanesi/) - Haftalık C++ - 48 - "Function Tracker": Basit bir "Mock" kütüphanesi
 
 *[Bu sayfayı Türkçe okuyun](https://github.com/yazilimperver/FunctionTracker/blob/main/README.md)*
 
