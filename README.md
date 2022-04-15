@@ -7,7 +7,7 @@ Bu tek bir başlık dosyasından oluşan kütüphane ile, test edilecek olan sı
 İlk etapta eğitsel amaçlar ile geliştirilen bu kütüphane, basit birim test "mock" ihtiyaçlarınız için kullanılabilir.
 
 Bu kütüphane ile ilgili daha detaylı bilgi için yazmış olduğum aşağıdaki yazıya göz atabilirsiniz:
-* [Function Tracker](https://www.yazilimperver.com/?p=2512&preview=true) - Haftalık C++ - 48 - "Function Tracker": Basit bir "Mock" kütüphanesi
+* [Function Tracker](https://www.yazilimperver.com/index.php/2022/04/15/haftalik-c-48-function-tracker-basit-bir-mock-kutuphanesi/) - Haftalık C++ - 48 - "Function Tracker": Basit bir "Mock" kütüphanesi
 
 *[Read this page in English](https://github.com/yazilimperver/FunctionTracker/blob/main/README-En.md)*
 
