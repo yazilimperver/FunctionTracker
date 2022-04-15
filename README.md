@@ -26,13 +26,15 @@ C++ 17 uyumlu bir derleyici. Kütüphane aşağıdaki derleyiciler ile denenmiş
 
 ### Kurulum
 
-You just need to copy **function_tracker.h** to your project and start to use it right away. 
-Provided unit tests can be checked for possible usage. CMake scripts are also provided.
+Sadece **function_tracker.h** dosyasını projenize dahil etmeniz, kopyalamanız yeterlidir. 
+Ayrıca CMake betikleri de bulunmaktadır.
 
 ### Örnek Kullanım
 
+Temelde yapmanız gereken ilk şey, "mock" olarak kullanacağınız sınıfı, arayüz sınıfından ve "FunctionTracker" sınıfından türetmek olacak. Sonra da, arayüz sınıfını gerçekleyen her bir API içerisinden "AddCall" API'sini çağırmak olacak. Bunun dışında, mock nesnesi için yapacak bir şey kalmıyor. Hemen bir örneğe bakalım.
+
 ```
-Give the example
+class DummyServerStub : public DummyService, public FunctionTracker { public: virtual void ServiceAPI1(bool basicInput1, const Obj& structInput, int32_t basicInput2, TestEnum enumInput) { // Bu cagri ile ilgili fonksiyon kayit altina alinir AddCall("ServiceAPI1", basicInput1, structInput, basicInput2, enumInput); } virtual void ServiceAPI2(const std::string& strValue) { AddCall("ServiceAPI2", strValue); } };
 ```
 
 
